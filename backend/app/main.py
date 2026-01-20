@@ -300,6 +300,31 @@ def get_current_user(
     kingdom = db.query(Kingdom).filter_by(number=kingdom_number).first()
     if not kingdom:
         raise HTTPException(status_code=404, detail="Kingdom not found")
+    
+    # Get stats
+    gov_count = db.query(Governor).filter_by(kingdom_id=kingdom.id).count()
+    alliance_count = db.query(Alliance).filter_by(kingdom_id=kingdom.id).count()
+    
+    last_scan = db.execute(
+        text("""
+            SELECT MAX(s.created_at) 
+            FROM governor_snapshots s
+            JOIN governors g ON g.id = s.governor_id_fk
+            WHERE g.kingdom_id = :kid
+        """),
+        {"kid": kingdom.id}
+    ).scalar()
+    
+    return {
+        "kingdom": kingdom.number,
+        "name": kingdom.name,
+        "kvk_active": kingdom.kvk_active,
+        "kvk_start": kingdom.kvk_start.isoformat() if kingdom.kvk_start else None,
+        "kvk_end": kingdom.kvk_end.isoformat() if kingdom.kvk_end else None,
+        "governors_count": gov_count,
+        "alliances_count": alliance_count,
+        "last_scan": last_scan.isoformat() if last_scan else None,
+    }
 
 
 @app.post("/auth/access-code")
@@ -324,31 +349,6 @@ def login_with_access_code(
         access_code=str(kingdom.access_code) if kingdom.access_code else None,  # type: ignore[arg-type]
         expires_in=24 * 7 * 3600  # 7 days in seconds
     )
-    
-    # Get stats
-    gov_count = db.query(Governor).filter_by(kingdom_id=kingdom.id).count()
-    alliance_count = db.query(Alliance).filter_by(kingdom_id=kingdom.id).count()
-    
-    last_scan = db.execute(
-        text("""
-            SELECT MAX(s.created_at) 
-            FROM governor_snapshots s
-            JOIN governors g ON g.id = s.governor_id_fk
-            WHERE g.kingdom_id = :kid
-        """),
-        {"kid": kingdom.id}
-    ).scalar()
-    
-    return {
-        "kingdom": kingdom.number,
-        "name": kingdom.name,
-        "kvk_active": kingdom.kvk_active,
-        "kvk_start": kingdom.kvk_start.isoformat() if kingdom.kvk_start else None,  # type: ignore[union-attr]
-        "kvk_end": kingdom.kvk_end.isoformat() if kingdom.kvk_end else None,  # type: ignore[union-attr]
-        "governors_count": gov_count,
-        "alliances_count": alliance_count,
-        "last_scan": last_scan.isoformat() if last_scan else None,
-    }
 
 
 @app.get("/kingdoms")
