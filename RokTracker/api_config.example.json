@@ -1,0 +1,10 @@
+{
+  "api_url": "http://localhost:8000/api",
+  "kingdom_numbers": [1234],
+  "primary_kingdom": 1234,
+  "auto_upload": true,
+  "batch_size": 5,
+  "timeout": 30,
+  "allowed_alliances": [],
+  "_instructions": "1. Change 1234 to your kingdom number. 2. Change api_url to your server URL if not running locally."
+}

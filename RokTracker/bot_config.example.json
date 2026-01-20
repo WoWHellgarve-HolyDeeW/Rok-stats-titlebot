@@ -1,0 +1,10 @@
+{
+  "api_url": "http://localhost:8000",
+  "kingdom_number": 1234,
+  "bluestacks_name": "RoK",
+  "bluestacks_port": 5555,
+  "poll_interval": 2.0,
+  "skip_navigation": false,
+  "debug_chat": false,
+  "_instructions": "Change kingdom_number to your kingdom. bluestacks_name should match your BlueStacks instance name."
+}

@@ -1,0 +1,100 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Next.js
+.next/
+out/
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files - IMPORTANT: Never commit real credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/settings.json
+.vscode/launch.json
+
+# Database - Never commit real data
+*.db
+*.sqlite3
+backend/*.db
+
+# Large files (>100MB GitHub limit)
+*.traineddata
+RokTracker/deps/tessdata/
+RokTracker/deps/platform-tools/
+*.exe
+*.dll
+*.whl
+
+# Scanner outputs - User-specific data
+RokTracker/scans/
+RokTracker/scans_kingdom/
+RokTracker/outputs/
+RokTracker/*.xlsx
+RokTracker/*.log
+RokTracker/temp_images/
+RokTracker/inactives/
+RokTracker/manual_review/
+RokTracker/debug/
+RokTracker/vision/cache/
+RokTracker/data/title_tracking/
+
+# Config files with real data
+RokTracker/api_config.json
+RokTracker/bot_config.json
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~

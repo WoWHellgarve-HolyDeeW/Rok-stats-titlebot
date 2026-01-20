@@ -1,0 +1,52 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: rok-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+
+  db:
+    image: postgres:16
+    container_name: rok-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-rok}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-rok}
+      POSTGRES_DB: ${POSTGRES_DB:-rokstats}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: rok-backend
+    depends_on:
+      - db
+      - redis
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg2://${POSTGRES_USER:-rok}:${POSTGRES_PASSWORD:-rok}@db:5432/${POSTGRES_DB:-rokstats}}
+      INGEST_TOKEN: ${INGEST_TOKEN:-}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      USE_ASYNC_INGEST: ${USE_ASYNC_INGEST:-0}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+
+  worker:
+    build: ./backend
+    container_name: rok-worker
+    depends_on:
+      - db
+      - redis
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg2://${POSTGRES_USER:-rok}:${POSTGRES_PASSWORD:-rok}@db:5432/${POSTGRES_DB:-rokstats}}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+    command: ["python", "-m", "app.worker"]
+
+volumes:
+  db_data:
