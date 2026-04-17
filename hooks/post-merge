@@ -1,0 +1,25 @@
+#!/bin/bash
+# Git post-merge hook - runs after git pull
+# Instalar: cp hooks/post-merge .git/hooks/post-merge && chmod +x .git/hooks/post-merge
+
+echo "=== Post-merge hook: Checking for new scans ==="
+
+# Check if any CSV files were updated
+if git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep -q "RokTracker/scans_kingdom/.*\.csv"; then
+    echo "New scan files detected! Running auto-upload..."
+    cd RokTracker
+    
+    # Use venv if exists
+    if [ -f "venv/bin/python" ]; then
+        venv/bin/python auto_upload_scans.py
+    elif [ -f ".venv/bin/python" ]; then
+        .venv/bin/python auto_upload_scans.py
+    else
+        python3 auto_upload_scans.py
+    fi
+    
+    cd ..
+    echo "Auto-upload complete!"
+else
+    echo "No new scan files."
+fi

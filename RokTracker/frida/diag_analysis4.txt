@@ -1,0 +1,387 @@
+﻿Total parsed events: 34271
+
+=== EVENTS CONTAINING 'Poder' ===
+       53501ms    pushstr | Poder
+       53501ms     tolstr | Poder
+       53563ms     tolstr | Poder
+       53571ms     tolstr | Poder
+       53571ms    pushstr | Poder
+       53571ms     tolstr | Poder
+       54033ms     tolstr | Poder
+
+=== FORMATTED NUMBERS (x.xxx or x.xxx.xxx) ===
+       54158ms   pushlstr | 36.728
+       54158ms     tolstr | 36.728
+       54158ms   pushlstr | 36.728
+       54158ms     tolstr | 36.728
+       54191ms   pushlstr | 1.500
+       54191ms     tolstr | 1.500
+       54191ms   pushlstr | 1.500
+       54191ms   pushlstr | 1.500
+       54191ms     tolstr | 1.500
+       54192ms   pushlstr | 1.500
+       54192ms     tolstr | 1.500
+       54192ms     tolstr | 1.500
+       54655ms   pushlstr | 17.500
+       54655ms     tolstr | 17.500
+       54655ms   pushlstr | 17.500
+       54656ms     tolstr | 17.500
+
+=== PURE NUMERIC STRINGS > 1000 ===
+       54042ms     tolstr | 217665187
+       54042ms    pushstr | 217665187
+       54042ms     tolstr | 217665187
+       54157ms     tolstr | 36728
+       54157ms    pushstr | 36728
+       54157ms     tolstr | 36728
+       54157ms   pushlstr | 36728
+       54158ms     tolstr | 36728
+       54158ms   pushlstr | 82763
+       54158ms     tolstr | 82763
+       54190ms     tolstr | 1500
+       54190ms    pushstr | 1500
+       54190ms     tolstr | 1500
+       54190ms   pushlstr | 1500
+       54190ms     tolstr | 1500
+       54191ms     tolstr | 1500
+       54191ms    pushstr | 1500
+       54191ms     tolstr | 1500
+       54191ms   pushlstr | 1500
+       54191ms     tolstr | 1500
+       54655ms     tolstr | 17500
+       54655ms    pushstr | 17500
+       54655ms     tolstr | 17500
+       54655ms   pushlstr | 17500
+       54655ms     tolstr | 17500
+       56862ms   pushlstr | 2167
+
+=== PUSHINT VALUES > 1000 (non-pointer, sorted by value) ===
+          325,477 @      56858ms
+          325,477 @      56858ms
+          325,475 @      54739ms
+          325,475 @      54740ms
+           59,961 @      55134ms
+           59,868 @      55096ms
+           59,867 @      55133ms
+           59,855 @      55024ms
+           59,852 @      55176ms
+           59,804 @      55086ms
+           59,789 @      54742ms
+           59,722 @      55122ms
+           59,721 @      54774ms
+           59,720 @      55109ms
+           59,600 @      55010ms
+           59,588 @      55005ms
+           59,572 @      55114ms
+           59,571 @      55075ms
+           59,435 @      55175ms
+           59,407 @      55154ms
+           59,355 @      55176ms
+           59,352 @      55174ms
+           59,346 @      55023ms
+           59,345 @      55005ms
+           59,338 @      55122ms
+           59,336 @      55026ms
+           59,334 @      54846ms
+           59,312 @      55065ms
+           59,259 @      55026ms
+           59,234 @      55114ms
+           59,144 @      55184ms
+           59,144 @      55376ms
+           59,094 @      55124ms
+           58,993 @      55135ms
+           58,989 @      54762ms
+           57,087 @      54780ms
+           51,271 @      55156ms
+           51,260 @      55073ms
+           50,717 @      55068ms
+           50,716 @      55100ms
+           49,938 @      55156ms
+           49,935 @      55048ms
+           23,322 @      55135ms
+           23,201 @      55018ms
+           23,148 @      55154ms
+           22,881 @      55023ms
+           22,873 @      55067ms
+           22,677 @      55096ms
+           21,724 @      55143ms
+           21,723 @      55061ms
+
+=== POTENTIAL GOVERNOR NAMES (53-55s, non-keyword, 3-25 chars) ===
+       53184ms     tolstr | Medal_Old
+       53185ms     tolstr | Loading
+       53254ms     tolstr | EnergyDescribe
+       53314ms     tolstr | Medal_New
+       53327ms     tolstr | PopUpM_SP_2/btnClose
+       53486ms    pushstr | Campe§es de OlÝmpia
+       53487ms     tolstr | Campe§es de OlÝmpia
+       53490ms    pushstr | N/A
+       53490ms     tolstr | N/A
+       53494ms    pushstr | Tropas
+       53494ms     tolstr | Tropas
+       53526ms    pushstr | Maior PontuaþÒo de MÚrito
+       53527ms     tolstr | Maior PontuaþÒo de MÚrito
+       53527ms    pushstr | Maior PontuaþÒo de MÚrito
+       53527ms     tolstr | Maior PontuaþÒo de MÚrito
+       53527ms     tolstr | PopUpM_SP_2/btnClose
+       53530ms     tolstr | N/A
+       53539ms    pushstr | O Reino Perdido
+       53539ms     tolstr | O Reino Perdido
+       53558ms    pushstr | Pontos de MÚrito
+       53559ms     tolstr | Pontos de MÚrito
+       53559ms    pushstr | Pontos de MÚrito
+       53559ms     tolstr | Pontos de MÚrito
+       53564ms     tolstr | O Reino Perdido
+       53570ms     tolstr | N/A
+       53573ms    pushstr | Arca de OsÝris
+       53573ms     tolstr | Arca de OsÝris
+       53574ms     tolstr | Maior PontuaþÒo de MÚrito
+       53574ms    pushstr | Maior PontuaþÒo de MÚrito
+       53575ms     tolstr | Maior PontuaþÒo de MÚrito
+       53581ms     tolstr | Arca de OsÝris
+       53608ms     tolstr | Campe§es de OlÝmpia
+       53610ms    pushstr | Conquistas
+       53611ms     tolstr | Conquistas
+       53611ms    pushstr | Conquistas
+       53611ms     tolstr | Conquistas
+       53614ms     tolstr | N/A
+       53618ms     tolstr | O Reino Perdido
+       53621ms     tolstr | O Reino Perdido
+       53623ms     tolstr | N/A
+       53624ms     tolstr | Arca de OsÝris
+       53634ms     tolstr | Arca de OsÝris
+       53636ms     tolstr | Campe§es de OlÝmpia
+       53640ms     tolstr | Classificaþ.
+       53640ms    pushstr | Classificaþ.
+       53672ms     tolstr | Classificaþ.
+       53725ms     tolstr | Maior PontuaþÒo de MÚrito
+       53729ms     tolstr | N/A
+       53731ms    pushstr | Chat
+       53731ms     tolstr | Chat
+       53739ms    pushstr | Perfil do Governador
+       53739ms     tolstr | Perfil do Governador
+       53739ms    pushstr | PERFIL DO GOVERNADOR
+       53739ms     tolstr | PERFIL DO GOVERNADOR
+       53739ms     tolstr | btnBgClose
+       53748ms    pushstr | Mensagem
+       53748ms     tolstr | Mensagem
+       53748ms    pushstr | Mensagem
+       53752ms     tolstr | Mensagem
+       53761ms    pushstr | Configuraþ§es
+       53761ms     tolstr | Configuraþ§es
+       53761ms    pushstr | Configuraþ§es
+       53761ms     tolstr | Configuraþ§es
+       53779ms    pushstr | Retrospecto da Temporada
+       53779ms     tolstr | Retrospecto da Temporada
+       53781ms    pushstr | Guia de jogabilidade
+       53781ms     tolstr | Guia de jogabilidade
+       53786ms    pushstr | Comandante
+       53786ms     tolstr | Comandante
+       53786ms    pushstr | Comandante
+       53786ms     tolstr | Comandante
+       53820ms     tolstr | Pontos de MÚrito
+       53821ms    pushstr | Pontos de MÚrito
+       53821ms     tolstr | Pontos de MÚrito
+       53946ms     tolstr | Campe§es de OlÝmpia
+       54042ms    pushstr | ID: {p1}
+       54042ms     tolstr | ID: {p1}
+       54042ms     tolstr | {p1}
+       54042ms   pushlstr | ID: 217665187
+       54057ms   pushlstr | avatarFrame
+       54057ms   pushlstr | avatar
+       54058ms     tolstr | ([^/]+)$
+       54058ms   pushlstr | img_ProfileBg220x220_a
+       54058ms     tolstr | img_ProfileBg220x220_a
+       54058ms     tolstr | img_ProfileBg220x220_a
+       54059ms     tolstr | AvatarTemplate
+       54064ms     tolstr | ([^/]+)$
+       54064ms     tolstr | ProfileMask
+       54070ms     tolstr | ([^/]+)$
+       54071ms   pushlstr | img_p
+       54071ms   pushlstr | img_pl
+       54073ms     tolstr | img_ProfileFrame
+       54075ms     tolstr | img_ProfileBg220x220_a
+       54075ms   pushlstr | img_P
+       54075ms     tolstr | img_ProfileBg220x220_a
+       54075ms   pushlstr | img_Pr
+       54076ms     tolstr | img_ProfileBg220x220_a
+       54090ms     tolstr | IM_LeaderIcon
+       54091ms     tolstr | IM_LeaderIcon/Icon
+       54094ms     tolstr | Examine
+       54157ms     tolstr | Holy Bot
+       54157ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54158ms     tolstr | (%d%d%d)
+       54158ms     tolstr | %1.
+       54158ms   pushlstr | 827.63
+       54158ms     tolstr | 827.63
+       54158ms   pushlstr | 36.728
+       54158ms     tolstr | 36.728
+       54158ms     tolstr | ^[.]
+       54158ms   pushlstr | 36.728
+       54158ms     tolstr | 36.728
+       54160ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54160ms     tolstr | (%d%d%d)
+       54160ms     tolstr | ^[.]
+       54161ms    pushstr | China
+       54162ms     tolstr | China
+       54162ms     tolstr | img_CiviFlag_CN_S
+       54162ms   pushlstr | img_C
+       54162ms     tolstr | img_CiviFlag_CN_S
+       54162ms   pushlstr | img_Ci
+       54163ms     tolstr | img_CiviFlag_CN_S
+       54185ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54186ms     tolstr | (%d%d%d)
+       54186ms     tolstr | ^[.]
+       54186ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54186ms     tolstr | (%d%d%d)
+       54187ms     tolstr | ^[.]
+       54190ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54190ms     tolstr | (%d%d%d)
+       54190ms     tolstr | %1.
+       54191ms     tolstr | ^[.]
+       54191ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54191ms     tolstr | (%d%d%d)
+       54191ms     tolstr | %1.
+       54192ms     tolstr | ^[.]
+       54192ms    pushstr | {p1}/{p2}
+       54192ms     tolstr | {p1}/{p2}
+       54192ms     tolstr | {p1}
+       54192ms     tolstr | {p2}
+       54276ms     tolstr | img_KVKTeamPageRoundADDBG
+       54276ms   pushlstr | img_K
+       54276ms     tolstr | img_KVKTeamPageRoundADDBG
+       54276ms   pushlstr | img_KV
+       54276ms     tolstr | img_KVKTeamPageRoundADDBG
+       54278ms     tolstr | img_KVKTeamPageRoundADDBG
+       54278ms   pushlstr | img_K
+       54278ms     tolstr | img_KVKTeamPageRoundADDBG
+       54278ms   pushlstr | img_KV
+       54279ms     tolstr | img_KVKTeamPageRoundADDBG
+       54281ms     tolstr | img_KVKTeamPageRoundADDBG
+       54281ms   pushlstr | img_K
+       54281ms     tolstr | img_KVKTeamPageRoundADDBG
+       54281ms   pushlstr | img_KV
+       54281ms     tolstr | img_KVKTeamPageRoundADDBG
+       54285ms     tolstr | img_KVKTeamPageRoundADDBG
+       54285ms   pushlstr | img_K
+       54285ms     tolstr | img_KVKTeamPageRoundADDBG
+       54285ms   pushlstr | img_KV
+       54285ms     tolstr | img_KVKTeamPageRoundADDBG
+       54288ms     tolstr | img_KVKTeamPageRoundADDBG
+       54288ms   pushlstr | img_K
+       54288ms     tolstr | img_KVKTeamPageRoundADDBG
+       54288ms   pushlstr | img_KV
+       54289ms     tolstr | img_KVKTeamPageRoundADDBG
+       54520ms     tolstr | img_iconIAPEvent2
+       54520ms     tolstr | (%d+)
+       54654ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54654ms     tolstr | (%d%d%d)
+       54654ms     tolstr | ^[.]
+       54655ms     tolstr | ([-]?)(%d+)([.]?%d*)
+       54655ms     tolstr | (%d%d%d)
+       54655ms     tolstr | %1.
+       54655ms     tolstr | ^[.]
+       54656ms     tolstr | Capacidade: {p1}/{p2}
+       54656ms     tolstr | {p1}
+       54656ms   pushlstr | Capacidade: 4/{p2}
+       54656ms     tolstr | Capacidade: 4/{p2}
+       54656ms     tolstr | {p2}
+       54656ms   pushlstr | Capacidade: 4/17.500
+       54721ms     tolstr | Batedor {p1}
+       54722ms     tolstr | {p1}
+       54722ms   pushlstr | Batedor  A
+       54722ms     tolstr | Batedor {p1}
+       54722ms     tolstr | {p1}
+       54722ms   pushlstr | Batedor  B
+       54735ms     tolstr | restart
+       54736ms     tolstr | !*t
+       54738ms     tolstr | !*t
+       54739ms     tolstr | sfx_button_close_normal
+       54740ms    pushstr | OnTouchEnded
+       54741ms    pushstr | IsEntered
+       54741ms    pushstr | MapDataHandler
+       54741ms    pushstr | MapDataHandler
+       54742ms    pushstr | ForceFixCameraLodLevel
+
+=== GFS WITH NON-PATH VALUES ===
+       53287ms | eng.table:SVIP_Deco/UniversalPopUpBG_SVIP_Deco
+       53327ms | eng.table:PopUpM_SP_2/btnClose
+       53486ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OLYMPIY_TITLE
+       53489ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_KILL_SCORE
+       53490ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_NODATA_TITLE
+       53492ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_GOVERNOR
+       53494ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_GOVERNOR_PROFILE_TROOPS_BUTTON
+       53501ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_POWER
+       53526ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_HISTORY_CONTRIBUTION
+       53530ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_NODATA_TITLE
+       53532ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_CIVILIZATION
+       53539ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_KVK_TITLE
+       53544ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_ALLIANCE
+       53558ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_CURRENT_CONTRIBUTION
+       53562ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_ALLIANCE
+       53563ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_POWER
+       53564ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_KVK_TITLE
+       53567ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_KILL_SCORE
+       53570ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_NODATA_TITLE
+       53571ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_POWER
+       53573ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OSIRIS_TITLE
+       53574ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_HISTORY_CONTRIBUTION
+       53581ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OSIRIS_TITLE
+       53585ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_CHAPTER_CITYLAYOUT_REVIEW_1
+       53587ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_OTHER_AP_TIPS
+       53608ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OLYMPIY_TITLE
+       53614ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_NODATA_TITLE
+       53617ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_KVK_TITLE
+       53621ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_KVK_TITLE
+       53623ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_NODATA_TITLE
+       53624ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OSIRIS_TITLE
+       53634ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OSIRIS_TITLE
+       53636ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OLYMPIY_TITLE
+       53640ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_LEADERBOARD
+       53675ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_GOVERNOR
+       53720ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_CIVILIZATION
+       53722ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_OTHER_AP_ALLRESTORETIME_ADD
+       53725ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_HISTORY_CONTRIBUTION
+       53729ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_NODATA_TITLE
+       53731ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_GOVERNOR_PROFILE_CHAT_TITLE
+       53739ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_GOVERNOR_INFO
+       53748ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_MAIL
+       53761ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_SETTINGS
+       53763ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_ALLIANCE
+       53774ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_CIVILIZATION
+       53779ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_KINGDOMWAR_SEASONREVIEW_TAB
+       53781ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_TUTORIAL_TITLE
+       53786ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_HERO_HERO
+       53811ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_ALLIANCE
+       53820ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_CURRENT_CONTRIBUTION
+       53827ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_GOVERNOR
+       53836ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_MORE_INFO
+       53873ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_KILL_SCORE
+       53887ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_CHAPTER_PLAYER_OPTIONS_2_COPYNAME
+       53889ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_CHAPTER_PLAYER_OPTIONS_1_REPORT
+       53891ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_ALLIANCE
+       53934ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_KILL_SCORE
+       53946ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_PLAYERINFO_HONOR_OLYMPIY_TITLE
+       53947ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_CIVILIZATION
+       54033ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_COMMON_POWER
+       54035ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_CHAPTER_PLAYER_OPTIONS_2_COPYNAME
+       54037ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:LC_CHAPTER_PLAYER_OPTIONS_1_REPORT
+       54042ms | eng.table:LC_COMMON_ACCOUNT_GOVERNOR_ID
+       54047ms | eng.table:Governador<color=#63C1DA>(ID: 217665187)</color>
+       54090ms | UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null:IM_LeaderIcon
+       54091ms | UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null:IM_LeaderIcon/Icon
+       54094ms | eng.table:Examine
+       54157ms | eng.table:Holy Bot
+       54158ms | eng.table:36.728
+       54159ms | eng.table:-
+       54160ms | eng.table:0
+       54162ms | eng.table:China
+       54185ms | eng.table:0
+       54186ms | eng.table:0
+       54187ms | eng.table:0
+       54190ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:1500
+       54292ms | UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null:x1
+       54512ms | UnityEngine.Animation, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null:CityUIPlayerInfo_movein
+       55420ms | eng.table:UTC 03/05 15:42
+       55542ms | eng.table:Em treinamento 00:00:00
+       55544ms | eng.table:ConcluÝda

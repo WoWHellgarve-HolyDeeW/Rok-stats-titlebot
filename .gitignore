@@ -1,0 +1,137 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Archive (dev artifacts)
+_archive/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Next.js
+.next/
+out/
+*.tsbuildinfo
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/settings.json
+
+# Database
+*.db
+*.sqlite3
+
+# Large files (>100MB GitHub limit)
+*.traineddata
+RokTracker/deps/tessdata/
+RokTracker/deps/platform-tools/
+*.exe
+*.dll
+*.whl
+
+# Large research binaries (too big for GitHub)
+frida-server-16*
+*.so
+*.dat
+*.bin
+*.xz
+*.zip
+RESEARCH/memory_dumps/
+RESEARCH/Il2CppDumper/x86_64_dump/
+RESEARCH/tools/frida-server
+RESEARCH/frida/*.bin
+RESEARCH/frida/*.so
+RESEARCH/frida/captures/
+RESEARCH/**/captures/
+RESEARCH/frida_archive/
+RESEARCH/captured_rok_data/
+RESEARCH/packet_captures/*.pcap
+RESEARCH/packet_captures/*.pcapng
+
+# Temporary commit message
+.commitmsg
+
+# Scan outputs
+RokTracker/scans/
+RokTracker/outputs/
+RokTracker/*.xlsx
+RokTracker/*.log
+RokTracker/api_config.local.json
+RokTracker/frida/captures/monitor/
+
+# Keep kingdom scan CSVs in git (for sync to production)
+!RokTracker/scans_kingdom/*.csv
+
+# Cache
+.cache/
+*.cache
+RokTracker/vision/cache/
+
+# Runtime artifacts (title bot / reverse engineering)
+_apk_temp/
+_daemon_*.log
+_daemon_*.pid
+_frida_daemon_*.log
+_pipeline_code.bin
+/captures/
+/_*.json
+/_*.jsonl
+/_*.log
+/_*.pcap
+/_*.txt
+/_debug_screenshots/
+/current_emulator_screen.png
+
+# Il2cpp dump (large, generated)
+_il2cpp_dump/
+
+# Research probe outputs
+/RESEARCH/*.out
+/RESEARCH/*.txt
+/RESEARCH/probe_*.py
+/RESEARCH/test_*.py
+/RESEARCH/hook_*.py
+/RESEARCH/quick_*.py
+RESEARCH/analysis/*.json
+RESEARCH/analysis/*.jsonl
+RESEARCH/analysis/*.log
+
+# Local clone of public open-source mirror
+Rok-stats-titlebot/
+

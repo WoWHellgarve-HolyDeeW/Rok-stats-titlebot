@@ -1,0 +1,21 @@
+﻿python : Traceback (most recent call last):
+At line:1 char:1
++ python RokTracker/frida/parse_live.py 2>&1 | Out-File -FilePath RokTr ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+======================================================================
+FILE: live_170626.json (30,019 bytes)
+======================================================================
+Top-level keys: ['timestamp', 'counts', 'data']
+Counts: {'chat': 18, 'players': 0, 'coords': 0, 'bursts': 44, 'big_ints': 83051, 'titles': 0, 'profiles': 20, 'tables': 26, 'rankings': 8}
+Data keys: ['chat', 'players', 'coordinates', 'profiles', 'tables', 'rankings']
+
+--- PROFILES (20) ---
+  File "C:\Users\Administrador\Desktop\rok_stats_iara\RokTracker\frida\parse_li
+ve.py", line 34, in <module>
+    name = p.get('governor_name', '?')
+AttributeError: 'str' object has no attribute 'get'

@@ -1,0 +1,100 @@
+# ============================================================
+# RoK Stats Hub — Configuração Centralizada
+# ============================================================
+# Este ficheiro consolida todos os caminhos, opções de scanner,
+# e definições do bot.  Os scanners e bots lêem daqui em vez de
+# usar caminhos hardcoded.
+# ============================================================
+
+# ── Caminhos ─────────────────────────────────────────────────
+paths:
+  # Directoria raiz do RokTracker (auto-detectada se vazia)
+  root_dir: ""
+
+  # Dependências
+  tesseract_data: "deps/tessdata"
+  adb_executable: "deps/platform-tools/adb.exe"
+  adb_inputs: "deps/inputs"
+
+  # Directorias de trabalho (relativas a root_dir)
+  temp_images: "temp_images"
+  images: "images"
+
+  # Directorias de output por scanner
+  scans:
+    kingdom: "scans_kingdom"
+    alliance: "scans_alliance"
+    honor: "scans_honor"
+    seed: "scans_seed"
+
+  # Logs e revisão
+  inactives: "inactives"
+  manual_review: "manual_review"
+  log_dir: ""  # vazio = root_dir
+
+# ── Emulador / ADB ──────────────────────────────────────────
+emulator:
+  type: "bluestacks"  # bluestacks | ldplayer
+  name: "BlueStacks App Player"
+  adb_port: 5555
+  resolution:
+    width: 1600
+    height: 900
+
+# ── Scanner Comum ────────────────────────────────────────────
+scan:
+  timings:
+    gov_open: 1.4
+    copy_wait: 0.15
+    kills_open: 0.6
+    info_open: 0.6
+    info_close: 0.3
+    gov_close: 0.65
+    max_random: 0.5
+  advanced_scroll: true
+  power_threshold: 100000
+  validate_power: false
+  validate_kills: true
+  reconstruct_kills: true
+  formats:
+    xlsx: true
+    csv: false
+    jsonl: true  # necessário para uploader
+
+# ── Bot Remoto ───────────────────────────────────────────────
+bot:
+  api_url: "http://localhost:8000"
+  kingdom_number: 3328
+  poll_interval: 2.0
+  skip_navigation: false
+  debug_chat: false
+
+# ── Title Bot ────────────────────────────────────────────────
+title_bot:
+  # Modo: "monitor" = só tracking, "auto" = atribui títulos automaticamente
+  mode: "auto"
+  sync_interval: 60
+  cooldown_seconds: 30  # tempo mínimo entre títulos ao mesmo jogador
+  enabled_titles:
+    - justice
+    - duke
+    - scientist
+    - architect
+
+# ── Frida Monitor ────────────────────────────────────────────
+frida:
+  default_pid: 2570
+  backend_url: "http://localhost:8000"
+  home_kingdom: 0000
+  home_server_id: 2167
+  kvk_map: "C13050"
+  lk_server_ids:
+    - 15854
+  captures_dir: "captures/monitor"
+
+# ── OCR ──────────────────────────────────────────────────────
+ocr:
+  tesseract_path: "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+  languages: "eng+chi_sim+kor+jpn"
+  psm_simple: 7
+  psm_sparse: 11
